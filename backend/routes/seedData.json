@@ -1,0 +1,882 @@
+[
+    {
+        "name": "Sauvage",
+        "brand": "Dior",
+        "description": "Une composition d'une fraîcheur radicale, dictée par un nom qui sonne comme un manifeste.",
+        "price": 95,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 25,
+        "category": "Homme",
+        "notes": ["Bergamote", "Poivre", "Ambroxan"],
+        "topNotes": [
+            { "name": "Bergamote de Calabre", "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?q=80&w=200&auto=format&fit=crop" },
+            { "name": "Poivre noir", "image": "https://images.unsplash.com/photo-1599940824399-b87987cb36e6?q=80&w=200&auto=format&fit=crop" }
+        ],
+        "heartNotes": [
+            { "name": "Lavande", "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?q=80&w=200&auto=format&fit=crop" },
+            { "name": "Géranium", "image": "https://images.unsplash.com/photo-1597405239502-302484a0d8ea?q=80&w=200&auto=format&fit=crop" }
+        ],
+        "baseNotes": [
+            { "name": "Ambroxan", "image": "https://images.unsplash.com/photo-1592914610354-fd354d45faab?q=80&w=200&auto=format&fit=crop" },
+            { "name": "Cèdre", "image": "https://images.unsplash.com/photo-1582103415174-8d488e146eb4?q=80&w=200&auto=format&fit=crop" }
+        ]
+    },
+    {
+        "name": "N°5",
+        "brand": "Chanel",
+        "description": "Le parfum de femme à l'odeur de femme. Un bouquet mythique.",
+        "price": 135,
+        "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
+        "stock": 12,
+        "category": "Femme",
+        "notes": ["Aldéhydes", "Ylang-Ylang", "Jasmin"],
+        "topNotes": [
+            { "name": "Aldéhydes", "image": "" },
+            { "name": "Néroli", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Ylang-Ylang", "image": "" },
+            { "name": "Jasmin de Grasse", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Bois de Santal", "image": "" },
+            { "name": "Vanille", "image": "" }
+        ]
+    },
+    {
+        "name": "Acqua di Gio",
+        "brand": "Armani",
+        "description": "Une fragrance aquatique et aromatique, née de la mer, du soleil et de la terre.",
+        "price": 85,
+        "image": "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?q=80&w=800&auto=format&fit=crop",
+        "stock": 42,
+        "category": "Homme",
+        "notes": ["Note Marine", "Bergamote", "Persil"],
+        "topNotes": [
+            { "name": "Note Marine", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Romarin", "image": "" },
+            { "name": "Lavage", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Ciste", "image": "" }
+        ]
+    },
+    {
+        "name": "Bloom",
+        "brand": "Gucci",
+        "description": "Un jardin de fleurs épanoui, imaginé comme une promenade sensorielle.",
+        "price": 110,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 35,
+        "category": "Femme",
+        "notes": ["Tubéreuse", "Jasmin", "Rangoon Creeper"],
+        "topNotes": [
+            { "name": "Jasmin", "image": "" },
+            { "name": "Gingembre", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Tubéreuse", "image": "" },
+            { "name": "Chèvrefeuille", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Rangoon Creeper", "image": "" },
+            { "name": "Musc Blanc", "image": "" }
+        ]
+    },
+    {
+        "name": "Luna Rossa",
+        "brand": "Prada",
+        "description": "Une fragrance énergisante et sportive, inspirée par la navigation extrême.",
+        "price": 88,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 25,
+        "category": "Homme",
+        "notes": ["Lavande", "Menthe", "Ambrette"],
+        "topNotes": [
+            { "name": "Lavande", "image": "" },
+            { "name": "Orange amère", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Menthe poivrée", "image": "" },
+            { "name": "Sauge sclarée", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Ambrette", "image": "" },
+            { "name": "Ambroxan", "image": "" }
+        ]
+    },
+    {
+        "name": "Oud Wood",
+        "brand": "Tom Ford",
+        "description": "Une exploration luxueuse de l'oud précieux et du bois de rose.",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop",
+        "stock": 18,
+        "category": "Mixte",
+        "notes": ["Oud", "Bois de Rose", "Cardamome"],
+        "topNotes": [
+            { "name": "Bois de Rose", "image": "" },
+            { "name": "Cardamome", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Oud", "image": "" },
+            { "name": "Santal", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vétiver", "image": "" },
+            { "name": "Vanille", "image": "" }
+        ]
+    },
+    {
+        "name": "Aventus",
+        "brand": "Creed",
+        "description": "Le parfum des conquérants modernes, mêlant force et élégance sucrée.",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?q=80&w=800&auto=format&fit=crop",
+        "stock": 10,
+        "category": "Homme",
+        "notes": ["Ananas", "Bouleau", "Musc"],
+        "topNotes": [
+            { "name": "Ananas", "image": "" },
+            { "name": "Cassis", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Bouleau", "image": "" },
+            { "name": "Patchouli", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Ambre gris", "image": "" }
+        ]
+    },
+    {
+        "name": "La Vie Est Belle",
+        "brand": "Lancôme",
+        "description": "Une déclaration universelle à la beauté de la vie.",
+        "price": 105,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 45,
+        "category": "Femme",
+        "notes": ["Iris", "Patchouli", "Praliné"],
+        "topNotes": [
+            { "name": "Cassis", "image": "" },
+            { "name": "Poire", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Iris", "image": "" },
+            { "name": "Jasmin", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Praliné", "image": "" }
+        ]
+    },
+    {
+        "name": "Libre",
+        "brand": "YSL",
+        "description": "Le parfum d'une femme libre et passionnée, mariant lavande et fleur d'oranger.",
+        "price": 115,
+        "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop",
+        "stock": 30,
+        "category": "Femme",
+        "notes": ["Lavande", "Fleur d'oranger", "Musc"],
+        "topNotes": [
+            { "name": "Mandarine", "image": "" },
+            { "name": "Lavande", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Lavande", "image": "" },
+            { "name": "Fleur d'oranger", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vanille", "image": "" },
+            { "name": "Ambre gris", "image": "" }
+        ]
+    },
+    {
+        "name": "L'Interdit",
+        "brand": "Givenchy",
+        "description": "Un hommage à la féminité audacieuse, un frisson défendu.",
+        "price": 98,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 22,
+        "category": "Femme",
+        "notes": ["Fleur d'oranger", "Jasmin", "Patchouli"],
+        "topNotes": [
+            { "name": "Bergamote", "image": "" },
+            { "name": "Poire", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Fleur d'oranger", "image": "" },
+            { "name": "Jasmin Sambac", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Vétiver", "image": "" }
+        ]
+    },
+    {
+        "name": "Shalimar",
+        "brand": "Guerlain",
+        "description": "Le premier parfum oriental de l'histoire, une ode au désir.",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 15,
+        "category": "Femme",
+        "notes": ["Bergamote", "Iris", "Vanille"],
+        "topNotes": [
+            { "name": "Bergamote", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Iris", "image": "" },
+            { "name": "Rose", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vanille", "image": "" },
+            { "name": "Fève Tonka", "image": "" }
+        ]
+    },
+    {
+        "name": "Eros",
+        "brand": "Versace",
+        "description": "L'incarnation de la force masculine et de la sensualité grecque.",
+        "price": 82,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 40,
+        "category": "Homme",
+        "notes": ["Menthe", "Pomme Verte", "Vanille"],
+        "topNotes": [
+            { "name": "Menthe", "image": "" },
+            { "name": "Pomme Verte", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Fève Tonka", "image": "" },
+            { "name": "Ambroxan", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vanille", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "1 Million",
+        "brand": "Paco Rabanne",
+        "description": "L'audace de l'or, une fragrance cuirée et épicée.",
+        "price": 78,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 50,
+        "category": "Homme",
+        "notes": ["Mandarine", "Cannelle", "Cuir"],
+        "topNotes": [
+            { "name": "Pamplemousse", "image": "" },
+            { "name": "Menthe", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Rose", "image": "" },
+            { "name": "Cannelle", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Cuir", "image": "" },
+            { "name": "Bois ambrés", "image": "" }
+        ]
+    },
+    {
+        "name": "Omnia",
+        "brand": "Bvlgari",
+        "description": "L'éclat d'une gemme précieuse dans un flacon.",
+        "price": 92,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 28,
+        "category": "Femme",
+        "notes": ["Iris", "Rose de Bulgarie", "Héliotrope"],
+        "topNotes": [
+            { "name": "Notes de sève", "image": "" },
+            { "name": "Pamplemousse rose", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Iris", "image": "" },
+            { "name": "Rose de Bulgarie", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Héliotrope", "image": "" },
+            { "name": "Bois solaires", "image": "" }
+        ]
+    },
+    {
+        "name": "Angel",
+        "brand": "Mugler",
+        "description": "L'étoile des parfums gourmands, une émotion céleste.",
+        "price": 102,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 20,
+        "category": "Femme",
+        "notes": ["Barbe à papa", "Patchouli", "Chocolat"],
+        "topNotes": [
+            { "name": "Bergamote", "image": "" },
+            { "name": "Mandarine", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Fruit de la passion", "image": "" },
+            { "name": "Pêche", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Vanille", "image": "" }
+        ]
+    },
+    {
+        "name": "Le Male",
+        "brand": "Jean Paul Gaultier",
+        "description": "Le matelot iconique, une lavande musclée et vanillée.",
+        "price": 75,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 48,
+        "category": "Homme",
+        "notes": ["Lavande", "Menthe", "Vanille"],
+        "topNotes": [
+            { "name": "Lavande", "image": "" },
+            { "name": "Menthe", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Fleur d'oranger", "image": "" },
+            { "name": "Cannelle", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vanille", "image": "" },
+            { "name": "Bois de Santal", "image": "" }
+        ]
+    },
+    {
+        "name": "Nomade",
+        "brand": "Chloé",
+        "description": "L'esprit d'aventure et de liberté dans un flacon solaire.",
+        "price": 89,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 32,
+        "category": "Femme",
+        "notes": ["Mirabelle", "Frésia", "Mousse de Chêne"],
+        "topNotes": [
+            { "name": "Mirabelle", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Frésia", "image": "" },
+            { "name": "Jasmin", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Mousse de Chêne", "image": "" },
+            { "name": "Patchouli", "image": "" }
+        ]
+    },
+    {
+        "name": "Hero",
+        "brand": "Burberry",
+        "description": "Un équilibre parfait entre force boisée et fraîcheur lumineuse.",
+        "price": 94,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 26,
+        "category": "Homme",
+        "notes": ["Bergamote", "Genévrier", "Cèdre"],
+        "topNotes": [
+            { "name": "Bergamote", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Genévrier", "image": "" },
+            { "name": "Poivre noir", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Cèdre de l'Himalaya", "image": "" },
+            { "name": "Cèdre de Virginie", "image": "" }
+        ]
+    },
+    {
+        "name": "English Pear & Freesia",
+        "brand": "Jo Malone",
+        "description": "L'essence de l'automne anglais, poire mûre et freesia blanc.",
+        "price": 145,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 14,
+        "category": "Femme",
+        "notes": ["Poire King William", "Freesia", "Patchouli"],
+        "topNotes": [
+            { "name": "Poire King William", "image": "" },
+            { "name": "Melon", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Freesia", "image": "" },
+            { "name": "Rose", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Ambre", "image": "" }
+        ]
+    },
+    {
+        "name": "Philosykos",
+        "brand": "Diptyque",
+        "description": "Un hommage entier au figuier : son fruit, sa feuille, son bois.",
+        "price": 138,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 19,
+        "category": "Mixte",
+        "notes": ["Feuille de Figuier", "Figue", "Bois de Figuier"],
+        "topNotes": [
+            { "name": "Feuille de Figuier", "image": "" },
+            { "name": "Figue", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Coco", "image": "" },
+            { "name": "Notes vertes", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Bois de Figuier", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "Gypsy Water",
+        "brand": "Byredo",
+        "description": "Une ode à la vie nomade, mêlant terre et liberté.",
+        "price": 195,
+        "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop",
+        "stock": 12,
+        "category": "Mixte",
+        "notes": ["Genévrier", "Encens", "Ambre"],
+        "topNotes": [
+            { "name": "Bergamote", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Encens", "image": "" },
+            { "name": "Aiguilles de pin", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Ambre", "image": "" },
+            { "name": "Santal", "image": "" }
+        ]
+    },
+    {
+        "name": "Jazz Club",
+        "brand": "Maison Margiela",
+        "description": "L'ambiance d'un club de jazz privé, rhum et tabac chaud.",
+        "price": 125,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 25,
+        "category": "Homme",
+        "notes": ["Rhum", "Tabac", "Vanille"],
+        "topNotes": [
+            { "name": "Poivre rose", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Rhum", "image": "" },
+            { "name": "Sauge sclarée", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Tabac", "image": "" },
+            { "name": "Vanille", "image": "" }
+        ]
+    },
+    {
+        "name": "Halfeti",
+        "brand": "Penhaligon's",
+        "description": "Un voyage mystique entre la Turquie et Londres.",
+        "price": 210,
+        "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop",
+        "stock": 8,
+        "category": "Mixte",
+        "notes": ["Rose Noire", "Oud", "Safran"],
+        "topNotes": [
+            { "name": "Armoise", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Rose Noire", "image": "" },
+            { "name": "Safran", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Oud", "image": "" },
+            { "name": "Cuir", "image": "" }
+        ]
+    },
+    {
+        "name": "Santal 33",
+        "brand": "Le Labo",
+        "description": "L'odeur de l'ouest américain, cuir et santal mythique.",
+        "price": 240,
+        "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop",
+        "stock": 15,
+        "category": "Mixte",
+        "notes": ["Santal", "Papyrus", "Cuir"],
+        "topNotes": [
+            { "name": "Cardamome", "image": "" },
+            { "name": "Iris", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Violette", "image": "" },
+            { "name": "Ambrox", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Bois de Santal", "image": "" },
+            { "name": "Cèdre de Virginie", "image": "" }
+        ]
+    },
+    {
+        "name": "Interlude",
+        "brand": "Amouage",
+        "description": "Le 'Chaos King', une explosion d'encens et d'origan.",
+        "price": 260,
+        "image": "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?q=80&w=800&auto=format&fit=crop",
+        "stock": 10,
+        "category": "Homme",
+        "notes": ["Encens", "Opoponax", "Cuir"],
+        "topNotes": [
+            { "name": "Origan", "image": "" },
+            { "name": "Piment", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Ambre", "image": "" },
+            { "name": "Encens", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Cuir", "image": "" },
+            { "name": "Oud", "image": "" }
+        ]
+    },
+    {
+        "name": "Elysium",
+        "brand": "Roja Parfums",
+        "description": "Une fraîcheur héroïque et sophistiquée.",
+        "price": 310,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 5,
+        "category": "Homme",
+        "notes": ["Pamplemousse", "Vétiver", "Ambre gris"],
+        "topNotes": [
+            { "name": "Pamplemousse", "image": "" },
+            { "name": "Citron", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Pomme", "image": "" },
+            { "name": "Baies de genièvre", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vétiver", "image": "" },
+            { "name": "Ambre gris", "image": "" }
+        ]
+    },
+    {
+        "name": "Naxos",
+        "brand": "Xerjoff",
+        "description": "Un héritage sicilien mêlant miel et tabac.",
+        "price": 235,
+        "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop",
+        "stock": 12,
+        "category": "Mixte",
+        "notes": ["Miel", "Tabac", "Lavande"],
+        "topNotes": [
+            { "name": "Lavande", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Miel", "image": "" },
+            { "name": "Cannelle", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Feuille de tabac", "image": "" },
+            { "name": "Vanille", "image": "" }
+        ]
+    },
+    {
+        "name": "Scent of Peace",
+        "brand": "Bond No. 9",
+        "description": "L'harmonie de la paix urbaine.",
+        "price": 205,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 18,
+        "category": "Mixte",
+        "notes": ["Cassis", "Muguet", "Musc"],
+        "topNotes": [
+            { "name": "Pamplemousse", "image": "" },
+            { "name": "Cassis", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Muguet", "image": "" },
+            { "name": "Hédione", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "Love Don't Be Shy",
+        "brand": "Kilian",
+        "description": "Une gourmandise addictive de guimauve et de néroli.",
+        "price": 255,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 10,
+        "category": "Femme",
+        "notes": ["Guimauve", "Néroli", "Fleur d'oranger"],
+        "topNotes": [
+            { "name": "Néroli", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Fleur d'oranger", "image": "" },
+            { "name": "Chèvrefeuille", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Guimauve", "image": "" },
+            { "name": "Musc", "image": "" }
+        ]
+    },
+    {
+        "name": "Layton",
+        "brand": "Parfums de Marly",
+        "description": "Une signature élégante et addictive, aux accents de pomme et de vanille.",
+        "price": 185,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 25,
+        "category": "Homme",
+        "notes": ["Pomme", "Vanille", "Cardamome"],
+        "topNotes": [
+            { "name": "Pomme", "image": "" },
+            { "name": "Lavande", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Jasmin", "image": "" },
+            { "name": "Violette", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vanille", "image": "" },
+            { "name": "Santal", "image": "" }
+        ]
+    },
+    {
+        "name": "CK One",
+        "brand": "Calvin Klein",
+        "description": "L'icône du parfum unisexe, pur et rafraîchissant.",
+        "price": 65,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 50,
+        "category": "Mixte",
+        "notes": ["Agrumes", "Jasmin", "Musc"],
+        "topNotes": [
+            { "name": "Citron", "image": "" },
+            { "name": "Notes vertes", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Jasmin", "image": "" },
+            { "name": "Muguet", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "Bottled",
+        "brand": "Hugo Boss",
+        "description": "La confiance en soi dans un flacon boisé et fruité.",
+        "price": 84,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 40,
+        "category": "Homme",
+        "notes": ["Pomme", "Cannelle", "Bois de Santal"],
+        "topNotes": [
+            { "name": "Pomme", "image": "" },
+            { "name": "Agrumes", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Cannelle", "image": "" },
+            { "name": "Géranium", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Bois de Santal", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "Polo Blue",
+        "brand": "Ralph Lauren",
+        "description": "L'élégance décontractée du grand large.",
+        "price": 76,
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop",
+        "stock": 35,
+        "category": "Homme",
+        "notes": ["Melon", "Basilic", "Musc"],
+        "topNotes": [
+            { "name": "Melon", "image": "" },
+            { "name": "Mandarine", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Basilic", "image": "" },
+            { "name": "Géranium", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Suède", "image": "" }
+        ]
+    },
+    {
+        "name": "Light Blue",
+        "brand": "Dolce & Gabbana",
+        "description": "La fraîcheur de la Méditerranée dans un flacon bleu.",
+        "price": 82,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 42,
+        "category": "Mixte",
+        "notes": ["Citron", "Pomme", "Cèdre"],
+        "topNotes": [
+            { "name": "Citron de Sicile", "image": "" },
+            { "name": "Pomme", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Bambou", "image": "" },
+            { "name": "Jasmin", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Cèdre", "image": "" },
+            { "name": "Ambre", "image": "" }
+        ]
+    },
+    {
+        "name": "Daisy",
+        "brand": "Marc Jacobs",
+        "description": "Le charme printanier des marguerites sauvages.",
+        "price": 72,
+        "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop",
+        "stock": 38,
+        "category": "Femme",
+        "notes": ["Fraise", "Violette", "Gardénia"],
+        "topNotes": [
+            { "name": "Fraise sauvage", "image": "" },
+            { "name": "Pamplemousse rose", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Violette", "image": "" },
+            { "name": "Gardénia", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc Blanc", "image": "" },
+            { "name": "Bois blancs", "image": "" }
+        ]
+    },
+    {
+        "name": "For Her",
+        "brand": "Narciso Rodriguez",
+        "description": "Un musc sophistiqué et intemporel.",
+        "price": 112,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 25,
+        "category": "Femme",
+        "notes": ["Musc", "Fleur d'oranger", "Ambre"],
+        "topNotes": [
+            { "name": "Rose", "image": "" },
+            { "name": "Pêche", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Ambre", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Santal", "image": "" }
+        ]
+    },
+    {
+        "name": "Le Parfum",
+        "brand": "Elie Saab",
+        "description": "Une radiance de fleur d'oranger et de jasmin.",
+        "price": 118,
+        "image": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=800&auto=format&fit=crop",
+        "stock": 18,
+        "category": "Femme",
+        "notes": ["Fleur d'oranger", "Jasmin", "Miel de rose"],
+        "topNotes": [
+            { "name": "Fleur d'oranger", "image": "" },
+            { "name": "Mandarine", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Jasmin", "image": "" },
+            { "name": "Grandiflorum", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Miel de rose", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "Flowerbomb",
+        "brand": "Viktor & Rolf",
+        "description": "Une explosion florale magique et envoûtante.",
+        "price": 122,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 10,
+        "category": "Femme",
+        "notes": ["Thé", "Jasmin", "Patchouli"],
+        "topNotes": [
+            { "name": "Thé", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Jasmin Sambac", "image": "" },
+            { "name": "Orchidée Cattleyas", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Patchouli", "image": "" },
+            { "name": "Rose du Centifolia", "image": "" }
+        ]
+    },
+    {
+        "name": "Terre d'Hermès",
+        "brand": "Hermès",
+        "description": "Le lien entre l'homme et la terre.",
+        "price": 108,
+        "image": "https://images.unsplash.com/photo-1547496613-2e06f97d0799?q=80&w=800&auto=format&fit=crop",
+        "stock": 12,
+        "category": "Homme",
+        "notes": ["Orange", "Silex", "Vétiver"],
+        "topNotes": [
+            { "name": "Orange", "image": "" },
+            { "name": "Pamplemousse", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Poivre noir", "image": "" },
+            { "name": "Géranium", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Vétiver", "image": "" },
+            { "name": "Cèdre", "image": "" }
+        ]
+    },
+    {
+        "name": "La Panthère",
+        "brand": "Cartier",
+        "description": "Une fragrance féline et florale, capturant l'essence de la panthère.",
+        "price": 125,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop",
+        "stock": 15,
+        "category": "Femme",
+        "notes": ["Gardénia", "Musc", "Notes fruitées"],
+        "topNotes": [
+            { "name": "Notes fruitées", "image": "" },
+            { "name": "Bergamote", "image": "" }
+        ],
+        "heartNotes": [
+            { "name": "Gardénia", "image": "" },
+            { "name": "Fleur de poirier", "image": "" }
+        ],
+        "baseNotes": [
+            { "name": "Musc", "image": "" },
+            { "name": "Mousse de chêne", "image": "" }
+        ]
+    }
+]
