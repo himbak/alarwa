@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Frontend Dev Server",
+			"type": "shell",
+			"command": "cd frontend && $env:SWC_DISABLE_BMI2=\"1\" && npm run dev",
+			"isBackground": true
+		},
+		{
+			"label": "Start Frontend Dev Server",
+			"type": "shell",
+			"command": "cd frontend ; $env:SWC_DISABLE_BMI2='1' ; npm run dev",
+			"isBackground": true
+		}
+	]
+}
